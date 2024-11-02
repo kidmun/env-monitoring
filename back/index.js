@@ -12,7 +12,7 @@ const cors = require('cors');
 const io = require("./socket")
 const port = 3000;
 const regression = require('regression');
-const MONGODB_URI = `mongodb+srv://kidus72:1221*abcd@cluster0.klqasxp.mongodb.net/thesis?retryWrites=true&w=majority`;
+
 // const result = regression.linear([[0, 25], [1, 24], [2, 25], [3,26], [4,55]]);
 // const gradient = result.equation[0];
 // const yIntercept = result.equation[1];
